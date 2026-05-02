@@ -1,0 +1,39 @@
+============================================
+ArchSecure - Cloud Framework Alignment Tool
+============================================
+
+--------------------------------------------
+A. FIRST-TIME INSTALLATION (Setup)
+--------------------------------------------
+You only need to run these steps once when setting up the project on a new machine.
+
+1. Setup the Backend (Python)
+Open a terminal, navigate to the `backend` folder, and run:
+   cd backend
+   python -m venv venv
+   .\venv\Scripts\activate
+   pip install -r requirements.txt
+
+2. Setup the Frontend (React)
+Open a new separate terminal, navigate to the `frontend` folder, and run:
+   cd frontend
+   npm install
+
+
+--------------------------------------------
+B. RUNNING THE APPLICATION (Daily Use)
+--------------------------------------------
+When you want to start the app, you need to run both the backend server and the frontend server at the same time in two separate terminal windows.
+
+Terminal 1 (Start the Backend API):
+   cd backend
+   .\venv\Scripts\activate
+   python main.py
+
+Terminal 2 (Start the Frontend UI):
+   cd frontend
+   npm run dev
+
+
+The application will now be running. 
+Open your web browser and go to the link shown in Terminal 2 (usually http://localhost:5173).

@@ -1,0 +1,14 @@
+supabase
+flask
+fastapi
+uvicorn
+python-dotenv
+pydantic
+python-jose[cryptography]
+passlib[bcrypt]
+requests
+python-multipart
+reportlab
+fpdf2
+openai
+python-multipart
