@@ -1,0 +1,16 @@
+backend
+
+cd CloudSecurity\backend
+security\Scripts\activate
+python main.py
+
+frontend
+
+cd CloudSecurity\frontend
+npm run dev
+
+localhost link (Ctrl + Click)
+
+
+user : T15
+pswd : 123456
